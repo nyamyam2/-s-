@@ -1,3 +1,3 @@
 import streamlit as st
-st.title('안녕')
-st.write('좀벌레 메타로 간다')
+st.title('커플 되는 법')
+st.write('커플이 되어요')
