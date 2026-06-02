@@ -13,7 +13,7 @@ st.caption("오늘의 연애운을 AI가 재미로 봐드립니다.")
 # API 키 불러오기
 try:
     api_key = st.secrets["GEMINI_API_KEY"]
-    client = genai.Client(api_key=gen-lang-client-0094349855)
+    client = genai.Client(api_key=api_key)
 except Exception as e:
     st.error("GEMINI_API_KEY를 Secrets에 설정해주세요.")
     st.stop()
